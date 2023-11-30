@@ -6,7 +6,7 @@ export const Section = styled("section")(({ theme }) => ({
   justifyContent: "space-between",
   [theme.breakpoints.down("md")]: {
     flexDirection: "column-reverse",
-    gap: "30px"
+    gap: "30px",
   },
 }));
 
@@ -21,7 +21,7 @@ export const DetailsContainer = styled("div")(({ theme }) => ({
   },
   [theme.breakpoints.down("md")]: {
     marginLeft: "0",
-    gap: "10px"
+    gap: "10px",
   },
 }));
 
@@ -42,12 +42,12 @@ export const DescriptionContainer = styled("div")({
   display: "flex",
   flexDirection: "column",
   gap: "5px",
-  
 });
 
 export const Paragraph = styled("p")(({ theme }) => ({
   fontSize: "14px",
   lineHeight: "1.8",
+  textAlign: "justify",
   [theme.breakpoints.down("lg")]: {
     fontSize: "13px",
     lineHeight: "1.6",
@@ -82,7 +82,7 @@ export const ResumeButton = styled("button")(({ theme }) => ({
   [theme.breakpoints.down("lg")]: {
     fontSize: "18px",
     width: "150px",
-    height: "45px"
+    height: "45px",
   },
 }));
 
